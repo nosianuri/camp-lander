@@ -16,7 +16,7 @@ const Camplejeune = () => {
                 <h2 className='text-[#A6192E] text-center lg:text-3xl text-xl font-bold'>Get the Compensation You Deserve for Camp Lejeune Water Contamination</h2>
                 <img src="https://i.ibb.co/6w6KvK1/camplejeune.png" alt="" className=' pt-2 pb-3 mx-auto' />
                 <h4 className='sm:text-xl text-center font-bold px-3'>You may be entitled up to 300 Million compensation if you were exposed to contaminated water at Camp Lejeune. Find out if you qualify for a settlement today.</h4>
-                <h2 className='sm:text-3xl max-w-[700px] mx-auto text-center mt-3'>Find out if you qualify for a settlement today. <span className='text-[#00a376] font-bold'>Click the button below</span> to speak with one of our attorneys and <span className='text-[#00a376] font-bold'>get started</span>.</h2>
+                <h2 className='sm:text-3xl max-w-[700px] mx-auto text-center mt-3'>Find out if you qualify for a settlement today. <span className='text-[#00a376] font-bold'>Click the button below</span> & fill out the form.</h2>
                 <div className="floating-icon ">
                     <a href="#form">
                         <BiChevronsDown color="#00D100" size={55} className="mouse" />
