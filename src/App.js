@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import Privacy from './Pages/Privacy/Privacy';
+import Terms from './Pages/Terms/Terms';
+import Camplejeune from './Pages/Camplejeune/Camplejeune';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Routes>
+        <Route path='/privacy-policy' element={<Privacy />}></Route>
+        <Route path='/terms-condition' element={<Terms />}></Route>
+        <Route path='/camplejeune' element={<Camplejeune />}></Route>
+      </Routes>
+
+    </>
   );
 }
 

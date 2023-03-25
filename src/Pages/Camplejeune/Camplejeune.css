@@ -1,0 +1,320 @@
+.top-logo{
+    width: 400px;
+    margin: auto;
+}
+.top-header{
+    background: #0c6fb1;
+    height: 50px; 
+}
+.main-body{
+    margin-top: 30px !important;
+    margin-bottom: 50px !important;
+    max-width: 800px;
+    margin: auto;
+}
+.floating-icon {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 10%;
+    bottom: 0;
+    transform: translateX(-50%);
+    cursor: pointer;
+    margin: auto;
+  }
+  
+  .floating-icon a {
+    /* border: 1px solid #212039; */
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    position: relative;
+    /* left: 50%; */
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mouse {
+    transform: translateY(-25%);
+    animation: bounce 0.8s ease infinite alternate;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(-25%);
+    }
+    100% {
+      transform: translateY(25%);
+    }
+  }
+  
+  @media screen and (max-width: 780px) {
+    .floating-icon {
+      left: 23%;
+    }
+    .top-logo{
+      width: 200px;
+      margin: auto;
+  }
+  }
+
+  .footer {
+    background: linear-gradient(#5da7df, #0c6fb1), url("http://andreeabunget.co.uk/Img/footer.jpg");
+    background-size: cover;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 1px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.footer-text {
+    color: rgb(206, 206, 206);
+    margin-top: 20px;
+}
+
+.footer-text p {
+    font-size: 14px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.second1 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.second1 a {
+    text-decoration: none;
+    color: rgb(206, 206, 206);
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.second1 a:hover {
+    color: #0F3460;
+}
+
+.second2 {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(206, 206, 206);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.second3 {
+    color: rgb(206, 206, 206);
+    margin: 10px;
+}
+
+.second h4 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 1.6em;
+    color: #fff;
+    padding-bottom: 0.5em;
+}
+
+.second h4::after {
+    content: '';
+    background: #66c83d;
+    width: 20%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
+
+
+.second li {
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+.second a,
+.second2 a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.second a:hover,
+.second2 a:hover {
+    color: #fff;
+    transition: 0.2s;
+    text-shadow: 2px 2px 20px #0F3460;
+    text-decoration: none
+}
+
+
+
+.third {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(206, 206, 206);
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+}
+
+
+.third h4 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 1.6em;
+    color: #fff;
+    padding-bottom: 0.5em;
+}
+
+
+.third h4::after {
+    content: '';
+    background: #66c83d;
+    width: 20%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 80%;
+}
+
+
+
+.third li {
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+
+.third a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+
+.third a:hover {
+    color: #fff;
+    transition: 0.2s;
+    text-shadow: 1px 1px 20px rgba(0, 0, 0, 1);
+}
+
+@media screen and (max-width: 780px) {
+    .footer {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+    }
+    .second1 a {
+        font-size: 9px;
+    }
+
+    .footer img {
+        width: 150px;
+    }
+    .footer-text p {
+        font-size: 12px;
+    }
+
+    .second2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .second2 i {
+        font-size: medium;
+    }
+
+    .second3 {
+        font-size: 8px;
+    }
+
+    .second1 {
+        margin-top: 5px;
+    }
+    .phone-button {
+        /* width: 140px; */
+        margin-bottom: 10px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .first {
+        text-align: center;
+    }
+
+    .first h4::after {
+        left: 40%;
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+    .third {
+        text-align: center;
+    }
+
+    .third h4::after {
+        left: 40% !important;
+    }
+}
+
+.margin {
+    margin-left: 20px;
+}
+
+.line {
+    height: 2px;
+    background-color: rgb(206, 206, 206);
+    width: 100%;
+}
+
+.container h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.banner-button {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.phone-button {
+    background: linear-gradient(90deg, #00c194, #00a376);
+    color: #fff;
+    font-style: italic;
+    /* margin-right: 25px; */
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.phone-button i {
+    animation-name: trin;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
