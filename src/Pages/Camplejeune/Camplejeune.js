@@ -2,6 +2,7 @@ import React from 'react'
 import CampFooter from './CampFooter'
 import { BiChevronsDown } from "react-icons/bi";
 import './Camplejeune.css';
+import giphy from '../../assets/get-anim.gif';
 
 const Camplejeune = () => {
     return (
@@ -16,15 +17,16 @@ const Camplejeune = () => {
                 <h2 className='text-[#A6192E] text-center lg:text-3xl text-xl font-bold'>Get the Compensation You Deserve for Camp Lejeune Water Contamination</h2>
                 <img src="https://i.ibb.co/6w6KvK1/camplejeune.png" alt="" className=' pt-2 pb-3 mx-auto' />
                 <h4 className='sm:text-xl text-center font-bold px-3'>You may be entitled up to 300 Million compensation if you were exposed to contaminated water at Camp Lejeune. Find out if you qualify for a settlement today.</h4>
-                <h2 className='sm:text-3xl max-w-[700px] mx-auto text-center mt-3'>Find out if you qualify for a settlement today. <span className='text-[#00a376] font-bold'>Click the button below</span> & fill out the form.</h2>
-                <div className="floating-icon ">
+                <h2 className='sm:text-3xl max-w-[700px] mx-auto text-center mt-3'>Find out if you qualify for a settlement today. <span className='text-[#f4b004] font-bold'>Click the button below</span> & fill out the form.</h2>
+                {/* <div className="floating-icon ">
                     <a href="#form">
                         <BiChevronsDown color="#00D100" size={55} className="mouse" />
                     </a>
-                </div>
+                </div> */}
                 <div className='banner-button text-center'>
                     <a href="https://www.r3hlvtrk.com/3J67C/883NLR8/" >
-                        <button className='phone-button py-2'>Get Started Now</button>
+                    <img src={giphy} alt="" className='w-3/4 mx-auto' />
+                        {/* <button className='phone-button py-2'>Get Started Now</button> */}
                     </a>
                 </div>
                 <h4 className='text-xl font-bold text-center px-3'>Between the 1950s and the 1980s, thousands of military personnel and their families were exposed to toxic chemicals in the drinking water at Camp Lejeune. If you or a loved one was stationed at Camp Lejeune during this time and suffered from any of the health conditions associated with the contamination, you may be entitled to compensation.</h4>
