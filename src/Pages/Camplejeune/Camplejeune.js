@@ -23,9 +23,9 @@ const Camplejeune = () => {
                         <BiChevronsDown color="#00D100" size={55} className="mouse" />
                     </a>
                 </div> */}
-                <div className='banner-button text-center'>
+                <div className='banner-button text-center mb-3'>
                     <a href="https://www.r3hlvtrk.com/3J67C/883NLR8/" >
-                    <img src={giphy} alt="" className='w-3/4 mx-auto' />
+                    <img src={giphy} alt="" className='sm:w-3/4 w-full mx-auto' />
                         {/* <button className='phone-button py-2'>Get Started Now</button> */}
                     </a>
                 </div>
