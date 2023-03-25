@@ -15,8 +15,8 @@ const Camplejeune = () => {
                 </div>
                 <h2 className='text-[#A6192E] text-center lg:text-3xl text-xl font-bold'>Get the Compensation You Deserve for Camp Lejeune Water Contamination</h2>
                 <img src="https://i.ibb.co/6w6KvK1/camplejeune.png" alt="" className=' pt-2 pb-3 mx-auto' />
-                <h4 className='text-xl text-center font-bold px-3'>You may be entitled up to 300 Million compensation if you were exposed to contaminated water at Camp Lejeune. Find out if you qualify for a settlement today.</h4>
-                <h2 className='sm:text-3xl text-center'>Find out if you qualify for a settlement today. Click the button below to speak with one of our attorneys and get started.</h2>
+                <h4 className='sm:text-xl text-center font-bold px-3'>You may be entitled up to 300 Million compensation if you were exposed to contaminated water at Camp Lejeune. Find out if you qualify for a settlement today.</h4>
+                <h2 className='sm:text-3xl max-w-[700px] mx-auto text-center mt-3'>Find out if you qualify for a settlement today. <span className='text-[#00a376] font-bold'>Click the button below</span> to speak with one of our attorneys and <span className='text-[#00a376] font-bold'>get started</span>.</h2>
                 <div className="floating-icon ">
                     <a href="#form">
                         <BiChevronsDown color="#00D100" size={55} className="mouse" />
@@ -40,9 +40,9 @@ const Camplejeune = () => {
                         </li>
                     </ul>
                 </div>
-                <p className='font-bold text-center'>Eligibility: You may be eligible for a settlement if you:</p>
+                <p className='font-bold text-center text-[#A6192E]'>Eligibility: You may be eligible for a settlement if you:</p>
                 <div className='flex justify-center'>
-                    <ul className='ul-article'>
+                    <ul className='ul-article text-[#A6192E]'>
                         <li>Were stationed at Camp Lejeune between the 1950s and 1980s</li>
                         <li>Were exposed to contaminated water</li>
                         <li>Suffered from one of the health conditions associated with the contamination</li>
