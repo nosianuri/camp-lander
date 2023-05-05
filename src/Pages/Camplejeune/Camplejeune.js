@@ -7,7 +7,9 @@ import giphy from '../../assets/get-anim.gif';
 const Camplejeune = () => {
     return (
         <div>
-            <div className='top-header'></div>
+            <div className='top-header'>
+                <p className='text-center py-2 call-now text-[#fff] sm:text-4xl text-2xl'>Call Now: <a href="tel:+8559390621" className='text-[#f4b004] hover:text-[#fff] hover:underline font-bold'>(855)-939-0621</a></p>
+            </div>
             <div className='max-w-[600px] !mx-auto main-body px-3'>
                 <div className='flex gap-5 justify-center items-center mt-10 mb-3 '>
                     <div className='top-logo' >
